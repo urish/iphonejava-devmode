@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <deployment-targets>
         <target device="mobileweb">false</target>
@@ -7,12 +7,12 @@
         <target device="android">true</target>
         <target device="blackberry">false</target>
     </deployment-targets>
-    <id>org.urish.iphonejava.helloworld</id>
-    <name>HelloWorld</name>
+    <id>org.urish.iphonejava.devmode</id>
+    <name>DevMode</name>
     <version>1.0</version>
     <publisher>Uri Shaked</publisher>
     <url>http://</url>
-    <description>Hello World iPhone Java Application</description>
+    <description>iPhone Java Dev Mode Application</description>
     <copyright>2011 by Uri Shaked</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
@@ -23,17 +23,19 @@
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
     <guid>33a070cc-c81e-4f2d-82df-0db893f12950</guid>
-    <iphone>
-        <orientations device="iphone">
-            <orientation>Ti.UI.PORTRAIT</orientation>
-        </orientations>
-        <orientations device="ipad">
-            <orientation>Ti.UI.PORTRAIT</orientation>
-            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
-            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
-            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
-        </orientations>
-    </iphone>
-    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
-    <modules/>
+	<iphone>
+		<orientations device="iphone">
+			<orientation>Ti.UI.PORTRAIT</orientation>
+		</orientations>
+		<orientations device="ipad">
+			<orientation>Ti.UI.PORTRAIT</orientation>
+			<orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+			<orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+			<orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+		</orientations>
+	</iphone>
+	<android xmlns:android="http://schemas.android.com/apk/res/android">
+	</android>
+	<modules>
+	</modules>
 </ti:app>
