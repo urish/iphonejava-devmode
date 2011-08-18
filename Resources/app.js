@@ -132,6 +132,7 @@
 	x = Titanium.Map;
 	x = Titanium.Media;
 	x = Titanium.Network;
+	x = Titanium.Network.Socket;
 	x = Titanium.Platform;
 	x = Titanium.Stream;
 	x = Titanium.UI;
