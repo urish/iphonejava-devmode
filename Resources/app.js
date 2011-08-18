@@ -108,18 +108,35 @@
 	}));
 
 	win.open();
-})();
 
-// These are there so Titanium will compile in all the modules...
-Titanium.API
-Titanium.Accelerometer
-Titanium.Analytics
-Titanium.Android
-Titanium.App
-Titanium.Blob
-Titanium.BlobStream
-Titanium.Buffer
-Titanium.BufferStream
-Titanium.Codec
-Titanium.Contacts
-// TODO complete.
+	var x;
+	// These are there so Titanium will compile in all the modules...
+	x = Titanium.API;
+	x = Titanium.Accelerometer;
+	x = Titanium.Analytics;
+	x = Titanium.Android;
+	x = Titanium.App;
+	x = Titanium.Blob;
+	x = Titanium.BlobStream;
+	x = Titanium.Buffer;
+	x = Titanium.BufferStream;
+	x = Titanium.Codec;
+	x = Titanium.Contacts;
+	x = Titanium.Database;
+	x = Titanium.Facebook;
+	x = Titanium.Filesystem;
+	x = Titanium.Geolocation;
+	x = Titanium.Gesture;
+	x = Titanium.IOStream;
+	x = Titanium.Locale;
+	x = Titanium.Map;
+	x = Titanium.Media;
+	x = Titanium.Network;
+	x = Titanium.Platform;
+	x = Titanium.Stream;
+	x = Titanium.UI;
+	x = Titanium.Utils;
+	x = Titanium.XML;
+	x = Titanium.Yahoo;
+	x = null;
+})();
